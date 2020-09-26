@@ -1,0 +1,7 @@
+.idea
+.python-version
+
+build/
+dist/
+__pycache__
+*.egg-info
