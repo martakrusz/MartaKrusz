@@ -1,5 +1,7 @@
 import sys
+import json
 
 from .parser import csv
 
-csv(sys.argv[1])
+for entry in csv(sys.argv[1]):
+    print(entry)
